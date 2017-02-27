@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8"> <!-- Etiqueta semántica que sí indica algo de la estructura (le indica los caracteres que va a poder soportar)-->
+	<title></title>
+</head>
+<body>
+	<header> <!-- Etiqueta semántica sirven para indicar al nivel deseo al navegador ciertas cosas -->
+		<h1>Título de la aplicación</h1> <!-- es recomendable usar h1 porque lo primero que busca google es que el título esté en h1 dentro de un header, ésto se lleva google para indexar la página -->
+		logo de la empresa
+		<img src="" alt="">
+		Menú de navegación <br>
+		<nav> <!-- Etiqueta semática -->
+			etiquetas para navegar entre las opciones de la página.
+		</nav>
+	</header>
+	<article></article>
+	<!-- <div>
+		Sirve para hacer una división lógica de elemento en pantalla para lo que se me ocurra
+	</div> -->
+	<section> <!-- No puede haber una section dentro de un article, ni una section dentro de otra section -->
+		<main> <!-- En el main va la información maaaas importante de mi documento o pag o lo que sea, es el climax de mi tema -->
+			<article>
+				Información distinta
+			</article>
+		</main>
+		<aside> <!-- aside es la sección de información irelevante con respecto a la página, o que está fuera del tema principal -->
+			<article>
+				Información distinta
+			</article>
+			<article>
+				Información distinta
+			</article>
+		</aside>
+		
+	</section>
+	<section></section>
+	<section></section>
+	<section></section>
+	<footer>
+		Información de la empresa
+		Privacidad
+		Dirección
+		Derechos Reservados, etc.
+	</footer>
+
+
+
+
+
+</body>
+</html>
