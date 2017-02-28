@@ -1,0 +1,18 @@
+HTML=estructura + contenido
+HTML + Diseño=CSS3
+CSS=Hojas de estilo en cascada
+   =Maquetado=Maquetación
+
+Orden en el que van los elementos
+1. Pseudo-elementos
+	-Contiene atributos
+2. Etiquetas <etiquetas>
+	-Contiene atributos
+3. Identificadores
+	-Contiene atributos
+4. Clases
+	-Contiene atributos
+5. Elemento de resposive design (diseño adaptativo)
+	-Contiene atributos
+Todos ellos en ordel alfabético
+Tanto elementos como atributos

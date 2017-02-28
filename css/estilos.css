@@ -1,0 +1,12 @@
+body{
+	background: #abcdef; /*el color directo ó #0-F0-F0-F0-F0-F0-F ó 
+						rgb(0-255,0-255,0-255) ó rgba(0-255,0-255,0-255,0.0-1.0)*/
+	border: 1px solid red;
+	font-size: 16px /*em,% son unidades de medida. 
+					La unidad de medida estandar de las paginas es 16px*/
+	max-width: 1024px;	/*estandar es 1024 porque las tablets acostadas se miran 
+						perfectamente con esas medidas, ante una pantalla con una 
+						resolución mayor, no tiene problemas, simplemente tendrá 
+						zonas en blanco (ésta es na buena práctica)*/
+
+}
