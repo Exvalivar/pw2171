@@ -1,0 +1,49 @@
+body{
+	font-size: 16px;
+	margin: 0 auto; /*centramos el body*/
+	max-width: 1078px; /*empresa nuv*/
+	min-width: 1078px;
+}
+header input{
+	float: right;
+	margin-right: -200px; 
+	margin-top: 15px;
+	position: relative;	/*static,absolute,fixed*/
+}
+header nav{
+	margin-left: 220px;
+}
+header nav ul li{
+	border-bottom: 1px solid gray;
+	color:  gray;
+	display: inline-block;
+	font-size: 1.8em;
+	margin-right: 15px;
+	/*text-decoration: underline;*/
+
+}
+#primeraSeccion{
+	height: 318px;
+
+}
+#primeraSeccion article{
+	/*border: 1px solid red;*/
+	display: inline-block;
+	vertical-align: top;
+}
+#granthams{ /*logo de la empresa*/
+	margin-top: 15px;
+	margin-left:25px; 
+}
+#paint{
+	float: right;
+}
+#secc01art01{
+	width: 50%;
+}
+#secc01art01 img{
+	width: 100%;
+}
+#secc01art02{
+	width: 20%;
+}
