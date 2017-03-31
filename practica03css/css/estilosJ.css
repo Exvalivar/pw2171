@@ -1,0 +1,164 @@
+body{
+	font-family: 'Lato', sans-serif;
+	font-size: 16px; /*1em*/
+	margin: 0 auto; /*centramos el body*/
+	max-width: 1024px; /*empresa-cliente*/
+	padding: 0px 0px 10px 0px; /*solo por cuestiones visuales, para que se aprecie el cuadro de categoria*/
+}
+
+header nav{
+	background: linear-gradient(#DD4812, #FD9155, #DD4812 60%);
+	border-radius: 5px;
+	margin: 0 auto;
+	margin-top: 40px;
+	padding: 1px 0px 1px 0px;
+	width: 98%;
+}
+
+header nav ul li{
+	color: white;
+	display: inline-block;
+	font-weight: bold;
+	margin-left: -20px;
+	margin-right: 40px;
+}
+
+section{
+	background: linear-gradient(#F1F1F1, white 30%);
+	margin:0 auto;
+	width: 96%;
+}
+
+section #art01, #art02{
+	display: inline-block;
+	margin-left: 12px;
+	vertical-align: top;
+}
+
+#art01{ 
+	margin-top: 15px;
+	width: 63%;
+}
+
+#art01art01, #art01art02{
+	border-bottom: 1px solid gray;
+}
+
+#art01art02{
+	margin-top: 20px;
+	padding: 5px 0px 20px 0px;
+}
+
+#art01art02 article{
+	display: inline-block;
+	vertical-align: top;
+}
+
+#art01art02img img{
+	border: 8px solid lightgray;
+	margin-right: 10px;
+}
+
+#art01art02post{
+	width: 68%;
+}
+
+#art01art02post input{
+	background: #C4C6C3;
+	border: 1px solid #C4C6C3;
+	border-radius: 8px;
+	color: white;
+	font-style: italic;
+	margin-top: 10px;
+	padding: 8px 7px 8px 7px;
+}
+
+#art02{
+	margin-top: 10px;
+	width: 33%;
+}
+
+#art02 article{
+	background: #FAFAFA;
+	border: 1px solid gray;
+	border-radius: 5px;
+	margin-top: 40px;
+	padding: 0px 0px 20px 0px;
+}
+
+#art02 article ul li{
+	border-bottom: 1px dashed gray;
+	font-size: 1.2em;
+	margin-top: 10px;
+	padding: 2px 0px;
+	width: 90%;
+}
+
+#logo{
+	margin-left: 30px;
+	margin-top: 5px;
+}
+
+#mithema{
+	margin-left: 30px;
+	font-family: 'Londrina Outline';
+	font-size: 2em;
+}
+
+#publicidad{
+	display: inline-block;
+	padding: 20px 2px 0px 2px;
+	text-align: center;
+}
+
+#red{
+	float: right;
+	margin-right: 30px;
+	margin-top: -10px;
+}
+
+#red img{ /*Le damos un margen entre si a cada imagen que esta dentro del span "red"*/
+	margin-left: 7px;
+}
+
+#search{
+	border: 1px solid gray;
+	border-radius: 20px;
+	padding: 7px;
+	margin-left: 15%;
+}
+
+#search input{
+	border-radius: 10px;
+	border: 1px solid black;
+	color: white;
+	padding: 3px 2px 3px 2px;
+}
+#search input=["button"]{
+	background: blue;
+}
+.PorAdmin{
+	background: #FAFAFA;
+	border: 1px solid lightgray;
+	border-radius: 12px;
+	display: block;
+	padding: 10px 0px 10px 0px;
+}
+
+.titulopost{
+	font-size: 1.8em;
+	font-weight: bold;
+	color: gray;
+}
+
+.titulos{
+	background: linear-gradient(#DD4812, #FD9155, #DD4812 60%);
+	border-radius: 13px;
+	color: white;
+	display: block;
+	font-size: 1.2em;
+	font-weight: bold;
+	margin-top: -10px;
+	padding: 8px;
+	text-align: center;
+}
