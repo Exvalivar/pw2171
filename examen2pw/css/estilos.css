@@ -1,0 +1,134 @@
+body{
+	font-size: 16px;
+	margin: 0 auto; /*centramos el body*/
+	max-width: 1078px; /*empresa nuv*/
+}
+
+header {
+	border-bottom: 2px dotted black;
+	padding-bottom: 40px;
+
+}
+
+header nav{
+	/*border: 1px solid blue;*/
+	width: 60%;
+	/*margin-right: -50px;*/
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 50px;
+}
+
+header nav ul li{
+	/*border-bottom: 1px solid gray;*/
+	/*color:  gray;*/
+	display: inline-block;
+	/*font-family: 'Josefin Sans',sans-serif;*/
+	font-size: 1.2em;
+	margin-right: 15px;
+	text-align: right;
+	font-family: 'Open Sans', sans-serif;
+	/*padding-right: -20px;*/
+	
+}
+
+#art1,#art2{
+	display: inline-block;
+	/*border:1px solid orange;*/
+	vertical-align: top;
+}
+#art1{
+	width: 60%;
+}
+#art2{
+	width: 33%;
+}
+#buy{
+	/*display: inline-block;*/
+	width: 15%;
+	/*border: 1px solid green;*/
+	margin-top: 20px;
+}
+#firstbike{
+	margin: 30px 0px 0px 20px;
+}
+#fiveyears{
+	margin-top: -130px;
+}
+#goto{
+	/*border:1px solid orange;*/
+	margin-bottom: 50px;
+	/*vertical-align: top;*/
+	/*position: absolute;*/
+	/*float:top;*/
+	/*top: -10px;*/
+	/*margin-top: -50px;*/
+}
+#letrotas{
+	/*border:1px solid blue;*/
+	border-bottom: 2px dotted black;
+	padding: 20px 0px;
+	font-family: 'Open Sans', sans-serif;
+}
+#letrotas span{
+	font-size: 5em;
+	size: bold;
+}
+#pies{
+	margin-top: 20px;
+	
+}
+#pies article{
+	display: inline-block;
+	width: 18%;
+	vertical-align: top;
+	
+}
+#pies article span{
+	padding-bottom: 10px;
+	display: block;
+	border-bottom: 1px solid gray;
+	font-family: 'Open Sans', sans-serif;
+}
+#pies article ul li{
+	list-style: none;
+	text-align: left;
+	font-family: 'Open Sans', sans-serif;
+	/*margin-right: -20px;*/
+}
+#prueba{
+	/*vertical-align: top;*/
+	/*border: 1px solid blue;*/
+	display: inline-block;
+	/*padding-top: 10px;*/
+	margin-top: -40px;
+	width: 33%;
+}
+#texto{
+	margin-top: 50px;
+	padding-bottom: 30px;
+	font-family: 'Open Sans', sans-serif;
+}
+#verde{
+	color: lime;
+}
+#videos{
+	/*border:1px solid green;*/
+	margin-top: 40px;
+}
+#videos img{
+	/*border:1px solid red;*/
+	display: inline-block;
+	width:45%;
+}
+#copy{
+	
+	font-family: 'Open Sans', sans-serif;
+}
+#copy img{
+	vertical-align: center;
+}
+.iconos{
+	float: right;
+	margin-right: 3px;
+}

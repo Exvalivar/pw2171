@@ -23,6 +23,9 @@ header nav ul li{
 	/*text-decoration: underline;*/
 
 }
+footer article img{
+	vertical-align: center;
+}
 #bgoffer{
 	position: relative;
 	top: -410px;
