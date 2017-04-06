@@ -7,13 +7,17 @@ let PantallaPrincipal;
 
 function muestraPantallaPrincipal(){
 	PantallaPrincipal= new BrowserWindow({
-		width:1024,
-		height:768
+		width:330,
+		height:435
 	})
 	PantallaPrincipal.on('closed',function(){
 		PantallaPrincipal=null
 	})
-	PantallaPrincipal.loadURL('http://platzi.com')
+	PantallaPrincipal.loadURL(url.format({
+		pathname: path.join(__dirname,'index.html'),
+		protocol: 'file', //le estamos diciendo que es un archivo de nosotros y respete las diagonales (?)
+		slashes: true
+	}))
 	PantallaPrincipal.show()
 }
 //la aplicación ejecuta este evento cuando
