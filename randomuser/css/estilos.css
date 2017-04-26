@@ -2,9 +2,19 @@ body{
 	font-size: 16px;
 	text-align: center;
 }
+body section article{
+	display: inline-block;
+}
 img{
 	border-radius: 200px;
 	width: 200px;
+}
+#art1{
+	vertical-align: top;
+	width: 30%;
+}
+#art2{
+	width: 67%;
 }
 #txtNombre{
 	font-size: 2em;
