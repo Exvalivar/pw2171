@@ -14,12 +14,12 @@ function datosRandom(){
 	    				"Ciudad "+data.results[0].location.city+"<br>"+
 	    				"Estado "+data.results[0].location.state+"<br>"+
 	    				"Codigo Postal "+data.results[0].location.postcode)
-	    $("#email").html(data.results[0].email)
-	    $("#login").html(data.results[0].login.username+"<br>"+
-	    				data.results[0].login.password+"<br>"+
-	    				data.results[0].login.salt+"<br>"+
-	    				data.results[0].login.md5+"<br>"+
-	    				data.results[0].login.sha1+"<br>"+
+	    $("#email").html("Email "+data.results[0].email)
+	    $("#login").html("User "+data.results[0].login.username+"<br>Contra "+
+	    				data.results[0].login.password+"<br>Salt "+
+	    				data.results[0].login.salt+"<br>Md5 "+
+	    				data.results[0].login.md5+"<br>Sha1 "+
+	    				data.results[0].login.sha1+"<br>Sha256 "+
 	    				data.results[0].login.sha256)
 	    $("#dob").html(data.results[0].dob)
 	    $("#reg").html(data.results[0].registered)
